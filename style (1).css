@@ -1,0 +1,81 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.cabecalho {
+    background-color: #383D58;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0;
+}
+.cabecalho-lista-item{
+    display: in;
+    margin: 0 16px;
+    font-size: 24px;
+}
+
+.escola-imagem{
+    width: 25%;
+}
+
+.ferramenta-cachorro{
+    width: 25%;
+}
+
+.escola{
+    background-image: linear-gradient(#1230D3,#4EBFE9);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0;
+}
+
+
+
+.escola-div-conteudo{
+    width: 100%;
+    text-align: center;
+}
+
+.escola-texto-um{
+    text-align: center;
+    padding: 24px 0;
+}
+
+
+.escola-titulo{
+    text-align: center;
+    padding: 24px 0;
+}
+
+.estudante-imagem{
+    width: 120px;
+}
+
+.estudante-icone{
+    width: 24px;
+}
+
+.estudante-div{
+    text-align: center;
+}
+
+.estudantes-titulo{
+    text-align: center;
+    padding: 50px 0;
+}
+
+.estudante-todos{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+
